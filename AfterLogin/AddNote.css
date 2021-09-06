@@ -20,3 +20,24 @@
     border: 1px solid gray;
     outline: none;
 }
+
+.dashboardIndex {
+    margin-top: -6%;
+}
+
+@media only screen and (max-width:720px) {
+    .dashboardIndex {
+        margin-top: -13%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .notehead input {
+        padding: 3px;
+        margin: 12px 0px;
+        max-width: 133px;
+    }
+    .dashboardIndex {
+        margin-top: -24%;
+    }
+}
