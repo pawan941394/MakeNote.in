@@ -1,0 +1,22 @@
+.note-editor {
+    margin-bottom: 5rem !important;
+}
+
+.notehead {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notehead input {
+    display: flex;
+    padding: 8px;
+    margin: 12px 0px;
+    border-radius: 13px;
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid gray;
+    outline: none;
+}
