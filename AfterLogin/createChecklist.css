@@ -31,3 +31,24 @@
 .dashboardIndex {
     margin-top: -12%;
 }
+
+@media only screen and (max-width:1060px) {
+    .dashboardIndex {
+        margin-top: -18% !important;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .dashboardIndex {
+        margin-top: -28% !important;
+    }
+    .note-content form {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .dashboardIndex {
+        margin-top: -214px !important;
+    }
+}
